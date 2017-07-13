@@ -26,6 +26,9 @@ a:hover, a:focus, a:active{
 .navbar {
     margin-bottom: 0px;
 }
+h3, h5{
+    margin: 0;
+}
 /* Remove Bootstrap Margin*/
 
 /* -------------------------------------------------------------------------------- */
@@ -73,6 +76,7 @@ a:hover, a:focus, a:active{
 	color: $textGrey;
 	line-height: 1.59;
 	font-size: 1.0625em;
+    
 }
 
 .footer-title{
@@ -80,6 +84,10 @@ a:hover, a:focus, a:active{
 	color: $textWhite;
 	font-size: 0.875em;
 	line-height: 2.14;
+}
+.footer-detail{
+    @extend .footer-title;
+    color: $textGrey;
 }
 
 .footer-text{
@@ -110,6 +118,7 @@ a:hover, a:focus, a:active{
 .disclaimer-text{
 	@extend .button-text;
 	color: $textGrey;
+    letter-spacing: normal;
 }
 
 .normal-text{
@@ -152,6 +161,16 @@ a:hover, a:focus, a:active{
 .para{
 	@extend .normal-text;
 }
+.button-hollow{
+    display: inline-block;
+    @extend .button-text-dark;
+    padding: 1.0625em 4.125em;
+    border: 1px solid $textBlack;
+    margin: 0 auto;
+    &:hover{
+        color: $textBlack;
+    }
+}
 /* -------------------------------------------------------------------------------- */
 /* -------------------------------------------------------------------------------- */
 /* ------------------------------------ About ------------------------------------- */
@@ -176,3 +195,67 @@ h1.diaries{
 	@extend .page-header;
 	font-size: 80px;
 }
+
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+/* ------------------------------ Contactbanner  ---------------------------------- */
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+
+.contact-banner{
+    padding: 7.0625em 0em 10em;
+    img{
+        margin-bottom: 3em;
+    }
+    .title{
+        @extend .page-tertiary-headers;
+        
+    }
+    .subtitle{
+        @extend .page-tertiary-subheaders;
+        margin-bottom: 4.125em;
+    }
+}
+
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------- footer  ------------------------------------ */
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+
+.footer{
+    background-color: $textBlack;
+    .footer-content{
+        padding: 2.6875em 0em;
+        .footer-contact-details{
+            img{
+                margin-right: 0.875em;
+            }
+            img, .contact-detail{
+                display: inline-block;
+            }
+            .contact-detail{
+                @extend .footer-detail;
+                margin-right: 3.75em;
+            }
+        }
+        h5{
+            @extend .footer-title;
+        }
+        .fb-btn img{
+            margin-top: 1.25em;
+        }
+    }
+    .disclaimer{
+        border-top: 1px solid $borderGrey;
+        padding: 3.125em 0em;
+        img{
+            margin-bottom: 1.5em;
+        }
+    }
+}
+
+
+
+
+

@@ -42,5 +42,6 @@ include('header.php');
 
 
 <?php
+include('contact-banner.php');
 include('footer.php');
 ?>

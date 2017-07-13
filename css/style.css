@@ -23,6 +23,9 @@ a:hover, a:focus, a:active {
 .navbar {
   margin-bottom: 0px; }
 
+h3, h5 {
+  margin: 0; }
+
 /* Remove Bootstrap Margin*/
 /* -------------------------------------------------------------------------------- */
 /* -------------------------------------------------------------------------------- */
@@ -45,7 +48,7 @@ a:hover, a:focus, a:active {
   line-height: 1.8;
   text-align: center; }
 
-.page-tertiary-headers {
+.page-tertiary-headers, .contact-banner .title {
   font-family: 'Catamaran', sans-serif;
   color: #3c3f3f;
   font-size: 2.5em;
@@ -59,17 +62,20 @@ a:hover, a:focus, a:active {
   line-height: 1.12;
   font-size: 1.5625em; }
 
-.page-tertiary-subheaders {
+.page-tertiary-subheaders, .contact-banner .subtitle {
   font-family: 'Work Sans', sans-serif;
   color: #8c8e8f;
   line-height: 1.59;
   font-size: 1.0625em; }
 
-.footer-title {
+.footer-title, .footer-detail, .footer .footer-content .footer-contact-details .contact-detail, .footer .footer-content h5 {
   font-family: 'Work Sans', sans-serif;
   color: #fefefe;
   font-size: 0.875em;
   line-height: 2.14; }
+
+.footer-detail, .footer .footer-content .footer-contact-details .contact-detail {
+  color: #8c8e8f; }
 
 .footer-text {
   font-family: 'Work Sans', sans-serif;
@@ -82,18 +88,19 @@ a:hover, a:focus, a:active {
   color: #8c8e8f;
   line-height: 1.75; }
 
-.button-text, .button-text-dark, .disclaimer-text {
+.button-text, .button-text-dark, .button-hollow, .disclaimer-text {
   font-family: 'Work Sans', sans-serif;
   font-size: 0.875em;
   line-height: 1.29;
   letter-spacing: 0.3px;
   color: #fefefe; }
 
-.button-text-dark {
+.button-text-dark, .button-hollow {
   color: #3c3f3f; }
 
 .disclaimer-text {
-  color: #8c8e8f; }
+  color: #8c8e8f;
+  letter-spacing: normal; }
 
 .normal-text, .para {
   font-family: 'Work Sans', sans-serif;
@@ -129,6 +136,14 @@ a:hover, a:focus, a:active {
   margin-left: 22px;
   margin-right: 44px; }
 
+.button-hollow {
+  display: inline-block;
+  padding: 1.0625em 4.125em;
+  border: 1px solid #3c3f3f;
+  margin: 0 auto; }
+  .button-hollow:hover {
+    color: #3c3f3f; }
+
 /* -------------------------------------------------------------------------------- */
 /* -------------------------------------------------------------------------------- */
 /* ------------------------------------ About ------------------------------------- */
@@ -142,3 +157,38 @@ h1 {
 
 h1.diaries {
   font-size: 80px; }
+
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+/* ------------------------------ Contactbanner  ---------------------------------- */
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+.contact-banner {
+  padding: 7.0625em 0em 10em; }
+  .contact-banner img {
+    margin-bottom: 3em; }
+  .contact-banner .subtitle {
+    margin-bottom: 4.125em; }
+
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------- footer  ------------------------------------ */
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+.footer {
+  background-color: #3c3f3f; }
+  .footer .footer-content {
+    padding: 2.6875em 0em; }
+    .footer .footer-content .footer-contact-details img {
+      margin-right: 0.875em; }
+    .footer .footer-content .footer-contact-details img, .footer .footer-content .footer-contact-details .contact-detail {
+      display: inline-block; }
+    .footer .footer-content .footer-contact-details .contact-detail {
+      margin-right: 3.75em; }
+    .footer .footer-content .fb-btn img {
+      margin-top: 1.25em; }
+  .footer .disclaimer {
+    border-top: 1px solid #787878;
+    padding: 3.125em 0em; }
+    .footer .disclaimer img {
+      margin-bottom: 1.5em; }
