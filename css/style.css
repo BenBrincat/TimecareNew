@@ -1,0 +1,144 @@
+/* For Vertical Center */
+/* For Vertical Center */
+/* ----- COLOUR PALETTE ------- */
+body {
+  font-family: 'Work Sans', sans-serif;
+  line-height: 1.45;
+  margin: 0;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  background: white;
+  color: black; }
+
+body, html, .full-height {
+  height: 100%; }
+
+p {
+  padding-bottom: 1.25em; }
+
+a:hover, a:focus, a:active {
+  text-decoration: none; }
+
+/* Remove Bootstrap Margin*/
+.navbar {
+  margin-bottom: 0px; }
+
+/* Remove Bootstrap Margin*/
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+/* ---------------------------------- Main Vars ----------------------------------- */
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+.page-header, h1, h1.diaries {
+  font-family: 'Catamaran', sans-serif;
+  color: #3c3f3f;
+  font-size: 3.75em;
+  font-weight: 300;
+  line-height: 1.08;
+  text-align: center; }
+
+.page-secondary-headers, h2 {
+  font-family: 'Catamaran', sans-serif;
+  color: #3c3f3f;
+  font-size: 3.125em;
+  font-weight: 300;
+  line-height: 1.8;
+  text-align: center; }
+
+.page-tertiary-headers {
+  font-family: 'Catamaran', sans-serif;
+  color: #3c3f3f;
+  font-size: 2.5em;
+  font-weight: 300;
+  line-height: 1.62;
+  text-align: center; }
+
+.page-subheaders {
+  font-family: 'Catamaran', sans-serif;
+  color: #3c3f3f;
+  line-height: 1.12;
+  font-size: 1.5625em; }
+
+.page-tertiary-subheaders {
+  font-family: 'Work Sans', sans-serif;
+  color: #8c8e8f;
+  line-height: 1.59;
+  font-size: 1.0625em; }
+
+.footer-title {
+  font-family: 'Work Sans', sans-serif;
+  color: #fefefe;
+  font-size: 0.875em;
+  line-height: 2.14; }
+
+.footer-text {
+  font-family: 'Work Sans', sans-serif;
+  color: #8c8e8f;
+  font-size: 0.875em;
+  line-height: 2; }
+
+.labels {
+  font-family: 'Work Sans', sans-serif;
+  color: #8c8e8f;
+  line-height: 1.75; }
+
+.button-text, .button-text-dark, .disclaimer-text {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 0.875em;
+  line-height: 1.29;
+  letter-spacing: 0.3px;
+  color: #fefefe; }
+
+.button-text-dark {
+  color: #3c3f3f; }
+
+.disclaimer-text {
+  color: #8c8e8f; }
+
+.normal-text, .para {
+  font-family: 'Work Sans', sans-serif;
+  color: #8c8e8f;
+  font-size: 1.125em;
+  line-height: 1.5; }
+
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+/* ---------------------------------- Site Wide ----------------------------------- */
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+.page-title {
+  padding: 8.9375em 0em 10.375em; }
+
+.content-wrapper {
+  background-color: #f8f8f8; }
+
+.content-full-width {
+  background-color: #f8f8f8;
+  margin: 0px 44px; }
+
+.container-fluid [class^="col-"] {
+  padding: 0; }
+
+.content-half-left {
+  background-color: #f8f8f8;
+  margin-left: 44px;
+  margin-right: 22px; }
+
+.content-half-right {
+  background-color: #f8f8f8;
+  margin-left: 22px;
+  margin-right: 44px; }
+
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+/* ------------------------------------ About ------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+.about .content .content-full-width {
+  padding: 7.5em 0em 8.125em; }
+
+h1 {
+  margin: 0em; }
+
+h1.diaries {
+  font-size: 80px; }

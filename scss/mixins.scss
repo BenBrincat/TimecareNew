@@ -1,0 +1,135 @@
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin box-sizing($set) {
+	-webkit-box-sizing: $set; /* Safari/Chrome, other WebKit */
+		-moz-box-sizing: $set;    /* Firefox, other Gecko */
+			box-sizing: $set;         /* Opera/IE 8+ */
+}
+
+@mixin box-shadow($shadow) {
+	 -moz-box-shadow: $shadow;
+  		-webkit-box-shadow: $shadow;
+  			box-shadow: $shadow;
+}
+
+@mixin opacity($transparency) {
+  	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$transparency*100)";
+  		-moz-opacity: $transparency;
+			-khtml-opacity: $transparency;
+  				opacity: $transparency;
+}
+
+@mixin transition($transition...) {
+    -moz-transition:    $transition;
+    -o-transition:      $transition;
+    -webkit-transition: $transition;
+    transition:         $transition;
+}
+@mixin transition-property($property...) {
+    -moz-transition-property:    $property;
+    -o-transition-property:      $property;
+    -webkit-transition-property: $property;
+    transition-property:         $property;
+}
+@mixin transition-duration($duration...) {
+    -moz-transition-property:    $duration;
+    -o-transition-property:      $duration;
+    -webkit-transition-property: $duration;
+    transition-property:         $duration;
+}
+@mixin transition-timing-function($timing...) {
+    -moz-transition-timing-function:    $timing;
+    -o-transition-timing-function:      $timing;
+    -webkit-transition-timing-function: $timing;
+    transition-timing-function:         $timing;
+}
+@mixin transition-delay($delay...) {
+    -moz-transition-delay:    $delay;
+    -o-transition-delay:      $delay;
+    -webkit-transition-delay: $delay;
+    transition-delay:         $delay;
+}
+
+/* For Vertical Center */
+@mixin translateY($translate) {
+    -webkit-transform: translateY($translate);
+      -moz-transform: translateY($translate);
+        -ms-transform: translateY($translate);
+          -o-transform: translateY($translate);
+            transform: translateY($translate);
+}
+/* For Vertical Center */
+
+@mixin transform($transform) {
+    -webkit-transform: $transform;
+      -moz-transform: $transform;
+        -ms-transform: $transform;
+          -o-transform: $transform;
+            transform: $transform;
+}
+
+@mixin appearance($appear){
+    -webkit-appearance: $appear;
+      -ms-appearance: $appear;
+        -moz-appearance: $appear;
+          -o-appearance: $appear;
+            appearance: $appear;
+}
+
+@mixin gradient($colour1, $colour2){
+  background: $colour1;
+  background: -moz-linear-gradient(top, $colour1 0%, $colour2 99%);
+  background: -webkit-linear-gradient(top, $colour1 0%,$colour2 99%);
+  background: linear-gradient(to bottom, $colour1 0%,$colour2 99%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$colour1', endColorstr='$colour2',GradientType=0 );
+}
+
+@mixin width($a, $b){
+  width: -webkit-calc(#{$a} - #{$b});
+  width:    -moz-calc(#{$a} - #{$b});
+  width:         calc(#{$a} - #{$b});
+}
+
+@mixin height($a, $b){
+  height: -webkit-calc(#{$a} - #{$b});
+  height:    -moz-calc(#{$a} - #{$b});
+  height:         calc(#{$a} - #{$b});
+}
+
+@mixin Catamaran{
+  font-family: 'Catamaran', sans-serif;
+}
+
+@mixin WorkSans{
+  font-family: 'Work Sans', sans-serif;
+}
+
+/* ----- COLOUR PALETTE ------- */
+
+$backgroundGrey:      #f8f8f8;
+
+$textGrey:            #8c8e8f;
+$textBlack:           #3c3f3f;
+$textWhite:           #fefefe;
+
+$green:               #7fe18e;
+
+$pinkLight:           #FCE6E8;
+$pinkDark:            #f5cace;
+
+$greenLight:          #e0f4ed;
+$greenDark:           #b8e0d2;
+
+$orangeLight:         #fcd1c2;
+$orangeDark:          #fcb29a;
+
+$blueLight:           #dbe8f3;
+$blueDark:            #dbe8f3;
+
+$yellowLight:         #f8eabe;
+$yellowDark:          #f9e49d;

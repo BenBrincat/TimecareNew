@@ -1,0 +1,178 @@
+@import 'mixins.scss';
+
+body{
+	@include WorkSans;
+	line-height: 1.45;
+	margin: 0;
+	font-size: 16px;
+	-webkit-font-smoothing: antialiased;
+	background: white;
+	color: black;
+}
+body, html, .full-height{
+	height: 100%;
+}
+p{
+	padding-bottom: 1.25em;
+}
+a{
+
+}
+a:hover, a:focus, a:active{
+	text-decoration: none;
+}
+
+/* Remove Bootstrap Margin*/
+.navbar {
+    margin-bottom: 0px;
+}
+/* Remove Bootstrap Margin*/
+
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+/* ---------------------------------- Main Vars ----------------------------------- */
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+
+.page-header{
+	@include Catamaran;
+	color: $textBlack;
+	font-size: 3.75em;
+	font-weight: 300;
+	line-height: 1.08;
+	text-align: center;
+}
+
+.page-secondary-headers{
+	@include Catamaran;
+	color: $textBlack;
+	font-size: 3.125em;
+	font-weight: 300;
+	line-height: 1.8;
+	text-align: center;
+}
+
+.page-tertiary-headers{
+	@include Catamaran;
+	color: $textBlack;
+	font-size: 2.5em;
+	font-weight: 300;
+	line-height: 1.62;
+	text-align: center;
+}
+
+.page-subheaders{
+	@include Catamaran;
+	color: $textBlack;
+	line-height: 1.12;
+	font-size: 1.5625em;
+}
+
+.page-tertiary-subheaders{
+	@include WorkSans;
+	color: $textGrey;
+	line-height: 1.59;
+	font-size: 1.0625em;
+}
+
+.footer-title{
+	@include WorkSans;
+	color: $textWhite;
+	font-size: 0.875em;
+	line-height: 2.14;
+}
+
+.footer-text{
+	@include WorkSans;
+	color: $textGrey;
+	font-size: 0.875em;
+	line-height: 2;
+}
+
+.labels{
+	@include WorkSans;
+	color: $textGrey;
+	line-height: 1.75;
+}
+
+.button-text{
+	@include WorkSans;
+	font-size: 0.875em;
+	line-height: 1.29;
+	letter-spacing: 0.3px;
+	color: $textWhite;
+}
+.button-text-dark{
+	@extend .button-text;
+	color: $textBlack;
+}
+
+.disclaimer-text{
+	@extend .button-text;
+	color: $textGrey;
+}
+
+.normal-text{
+	@include WorkSans;
+	color: $textGrey;
+	font-size: 1.125em;
+	line-height: 1.5;
+}
+
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+/* ---------------------------------- Site Wide ----------------------------------- */
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+.page-title{
+	padding: 8.9375em 0em 10.375em;
+}
+.content-wrapper{
+	background-color: $backgroundGrey;
+}
+.content-full-width{
+	background-color: $backgroundGrey;
+	margin: 0px 44px;
+}
+
+.container-fluid [class^="col-"]{
+	padding: 0;
+}
+
+.content-half-left{
+	background-color: $backgroundGrey;
+	margin-left: 44px;
+	margin-right: 22px;
+}
+.content-half-right{
+	background-color: $backgroundGrey;
+	margin-left: 22px;
+	margin-right: 44px;
+}
+.para{
+	@extend .normal-text;
+}
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+/* ------------------------------------ About ------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+.about{
+	.content{
+		.content-full-width{
+			padding: 7.5em 0em 8.125em;
+		}
+	}
+}
+
+h1{
+	margin: 0em;
+	@extend .page-header;
+}
+h2{
+	@extend .page-secondary-headers;
+}
+h1.diaries{
+	@extend .page-header;
+	font-size: 80px;
+}
