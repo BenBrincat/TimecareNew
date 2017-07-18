@@ -56,7 +56,7 @@ h3, h5 {
   line-height: 1.62;
   text-align: center; }
 
-.page-subheaders {
+.page-subheaders, .diaries-header h1, .diaries-header .price {
   font-family: 'Catamaran', sans-serif;
   color: #3c3f3f;
   line-height: 1.12;
@@ -88,7 +88,7 @@ h3, h5 {
   color: #8c8e8f;
   line-height: 1.75; }
 
-.button-text, .button-text-dark, .button-hollow, .disclaimer-text {
+.button-text, .button-text-dark, .button-hollow, .disclaimer-text, .button, .diaries-options .stock .stock-status {
   font-family: 'Work Sans', sans-serif;
   font-size: 0.875em;
   line-height: 1.29;
@@ -144,6 +144,15 @@ h3, h5 {
   .button-hollow:hover {
     color: #3c3f3f; }
 
+.button {
+  display: inline-block;
+  background-color: #3c3f3f;
+  padding: 1.0625em 4.125em;
+  border: 1px solid #3c3f3f;
+  margin: 0 auto; }
+  .button:hover {
+    color: #3c3f3f; }
+
 /* -------------------------------------------------------------------------------- */
 /* -------------------------------------------------------------------------------- */
 /* ------------------------------------ About ------------------------------------- */
@@ -192,3 +201,53 @@ h1.diaries {
     padding: 3.125em 0em; }
     .footer .disclaimer img {
       margin-bottom: 1.5em; }
+
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+/* ------------------------------ diaries-detail ---------------------------------- */
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+.diaries-header {
+  padding-bottom: 1.75em;
+  border-bottom: 1px solid #e7e8e8; }
+  .diaries-header h1, .diaries-header .price {
+    line-height: 1.04; }
+  .diaries-header .price {
+    font-weight: 300; }
+
+.diaries-options {
+  padding-top: 1.75em;
+  padding-bottom: 2.1875em;
+  border-bottom: 1px solid #e7e8e8; }
+  .diaries-options .button-hollow, .diaries-options .button {
+    display: block;
+    text-align: center; }
+  .diaries-options .stock.in {
+    background-color: #7fe18e; }
+  .diaries-options .stock {
+    text-align: center; }
+    .diaries-options .stock .stock-status {
+      text-transform: uppercase;
+      padding: 0.43em 0em;
+      display: inline-block; }
+    .diaries-options .stock img {
+      margin-left: 0.56em; }
+  .diaries-options .stock, .diaries-options .button {
+    margin-bottom: 0.625em; }
+
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------- navigation-- ---------------------------------- */
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+.navbar-center {
+  display: inline-block;
+  float: none;
+  vertical-align: top; }
+
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent; }
+  .navbar-default .content-full-width {
+    background-color: transparent;
+    border-bottom: 1px solid #e7e8e8; }

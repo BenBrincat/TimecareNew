@@ -171,6 +171,21 @@ h3, h5{
         color: $textBlack;
     }
 }
+
+.button{
+    display: inline-block;
+    @extend .button-text;
+    background-color: $textBlack;
+    padding: 1.0625em 4.125em;
+    border: 1px solid $textBlack;
+    margin: 0 auto;
+    &:hover{
+        color: $textBlack;
+    }
+}
+//.button:hover{
+//    
+//}
 /* -------------------------------------------------------------------------------- */
 /* -------------------------------------------------------------------------------- */
 /* ------------------------------------ About ------------------------------------- */
@@ -255,7 +270,73 @@ h1.diaries{
     }
 }
 
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+/* ------------------------------ diaries-detail ---------------------------------- */
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
 
+.diaries-header{
+    padding-bottom: 1.75em;
+    border-bottom: 1px solid $border;
+    h1, .price{
+        @extend .page-subheaders;
+        line-height: 1.04;
+        
+    }
+    .price{
+            font-weight: 300;
+        }
+    
+}
 
+.diaries-options{
+    padding-top: 1.75em;
+    padding-bottom: 2.1875em;
+    border-bottom: 1px solid $border;
+    .button-hollow, .button{
+        display: block;
+        text-align: center;
+    }
+    .stock.in{
+        background-color: $green;
+        
+    }
+    .stock{
+        text-align: center;
+        .stock-status{
+            text-transform: uppercase;
+            @extend .button-text;
+            padding: 0.43em 0em;
+            display: inline-block;
+            
+        }
+        img{
+            margin-left: 0.56em;
+        }
+    }
+    .stock, .button{
+        margin-bottom: 0.625em;
+    } 
+    
+}
 
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------- navigation-- ---------------------------------- */
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
 
+.navbar-center{
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    .content-full-width{
+        background-color: transparent;
+        border-bottom: 1px solid $border;
+    }
+}
