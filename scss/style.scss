@@ -268,7 +268,12 @@ h1.diaries{
             margin-bottom: 1.5em;
         }
     }
+    
 }
+.myModal{
+        width: 34.75em;
+        height: 40.5em;
+    }
 
 /* -------------------------------------------------------------------------------- */
 /* -------------------------------------------------------------------------------- */
@@ -339,4 +344,42 @@ h1.diaries{
         background-color: transparent;
         border-bottom: 1px solid $border;
     }
+}
+
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------- Contact us  ----------------------------------- */
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+
+.contact{
+	.content{
+		.content-full-width{
+			padding: 7.5em 0em 8.125em;
+            margin-bottom: 2.8125em;
+            h2{
+                @extend .page-subheaders;
+                padding-bottom: 2.44em;
+            }
+            img, .box,.contact-detail{
+                display: inline-block;
+            }
+            .box{
+                width: 26px;
+                vertical-align: top;
+            }
+            li{
+                padding-bottom: 2.125em;
+               
+            }
+            .contact-detail{
+                 margin-left: 0.875em;
+                 @extend .footer-detail;
+            }
+            .fb-btn{
+                display: block;
+                margin-top: 3.1875em;
+            }
+		}
+	}
 }

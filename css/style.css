@@ -56,7 +56,7 @@ h3, h5 {
   line-height: 1.62;
   text-align: center; }
 
-.page-subheaders, .diaries-header h1, .diaries-header .price {
+.page-subheaders, .diaries-header h1, .diaries-header .price, .contact .content .content-full-width h2 {
   font-family: 'Catamaran', sans-serif;
   color: #3c3f3f;
   line-height: 1.12;
@@ -68,13 +68,13 @@ h3, h5 {
   line-height: 1.59;
   font-size: 1.0625em; }
 
-.footer-title, .footer-detail, .footer .footer-content .footer-contact-details .contact-detail, .footer .footer-content h5 {
+.footer-title, .footer-detail, .footer .footer-content .footer-contact-details .contact-detail, .contact .content .content-full-width .contact-detail, .footer .footer-content h5 {
   font-family: 'Work Sans', sans-serif;
   color: #fefefe;
   font-size: 0.875em;
   line-height: 2.14; }
 
-.footer-detail, .footer .footer-content .footer-contact-details .contact-detail {
+.footer-detail, .footer .footer-content .footer-contact-details .contact-detail, .contact .content .content-full-width .contact-detail {
   color: #8c8e8f; }
 
 .footer-text {
@@ -202,6 +202,10 @@ h1.diaries {
     .footer .disclaimer img {
       margin-bottom: 1.5em; }
 
+.myModal {
+  width: 34.75em;
+  height: 40.5em; }
+
 /* -------------------------------------------------------------------------------- */
 /* -------------------------------------------------------------------------------- */
 /* ------------------------------ diaries-detail ---------------------------------- */
@@ -251,3 +255,26 @@ h1.diaries {
   .navbar-default .content-full-width {
     background-color: transparent;
     border-bottom: 1px solid #e7e8e8; }
+
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------- Contact us  ----------------------------------- */
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+.contact .content .content-full-width {
+  padding: 7.5em 0em 8.125em;
+  margin-bottom: 2.8125em; }
+  .contact .content .content-full-width h2 {
+    padding-bottom: 2.44em; }
+  .contact .content .content-full-width img, .contact .content .content-full-width .box, .contact .content .content-full-width .contact-detail {
+    display: inline-block; }
+  .contact .content .content-full-width .box {
+    width: 26px;
+    vertical-align: top; }
+  .contact .content .content-full-width li {
+    padding-bottom: 2.125em; }
+  .contact .content .content-full-width .contact-detail {
+    margin-left: 0.875em; }
+  .contact .content .content-full-width .fb-btn {
+    display: block;
+    margin-top: 3.1875em; }

@@ -52,7 +52,7 @@
          <div class="col-md-2">
              <ul class="nav navbar-nav">
         <li class="active"><a href="#">Sign Up <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Log In</a></li>
+        <li><a href="#" data-toggle="modal" data-target="#myModal">Log In</a></li>
       </ul>
          </div>
          
