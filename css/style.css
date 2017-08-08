@@ -32,6 +32,13 @@ h3, h5 {
 /* ---------------------------------- Main Vars ----------------------------------- */
 /* -------------------------------------------------------------------------------- */
 /* -------------------------------------------------------------------------------- */
+.timecare-header, .navbar-default .navbar-nav > li > a {
+  font-family: 'Work Sans', sans-serif;
+  color: #8c8e8f;
+  line-height: 1.13;
+  letter-spacing: 0.8px;
+  text-align: center; }
+
 .page-header, h1, h1.diaries {
   font-family: 'Catamaran', sans-serif;
   color: #3c3f3f;
@@ -114,7 +121,7 @@ h3, h5 {
 /* -------------------------------------------------------------------------------- */
 /* -------------------------------------------------------------------------------- */
 .page-title {
-  padding: 8.9375em 0em 10.375em; }
+  padding: 13.875em 0em 10.375em; }
 
 .content-wrapper {
   background-color: #f8f8f8; }
@@ -278,3 +285,50 @@ h1.diaries {
   .contact .content .content-full-width .fb-btn {
     display: block;
     margin-top: 3.1875em; }
+
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+/* ----------------------------------- Header ------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+.navbar {
+  border: none;
+  background-color: white; }
+
+li.dropdown {
+  position: initial; }
+  li.dropdown .dropdown-menu {
+    width: 100%;
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+
+.navbar-default .navbar-center > li.active > a {
+  border-bottom: 1px solid #3c3f3f;
+  background-color: transparent; }
+  .navbar-default .navbar-center > li.active > a:hover {
+    background-color: transparent; }
+
+.navbar-default .navbar-center > li > a {
+  margin-left: 2.341em;
+  margin-right: 2.341em;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 2.0625em;
+  padding-bottom: 2.125em; }
+
+.navbar-default .navbar-center > li .header-logo {
+  padding-top: 1.6875em;
+  padding-bottom: 1.5em; }
+
+.navbar-default .on-bording-nav li a {
+  margin-right: 1.43em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-top: 1.4em;
+  margin-bottom: 1.4em;
+  padding-bottom: 0.6em;
+  padding-top: 0.6em; }
+  .navbar-default .on-bording-nav li a.sign-up {
+    border: 1px solid #8c8e8f;
+    border-radius: 25px; }

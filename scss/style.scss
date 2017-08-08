@@ -36,7 +36,13 @@ h3, h5{
 /* ---------------------------------- Main Vars ----------------------------------- */
 /* -------------------------------------------------------------------------------- */
 /* -------------------------------------------------------------------------------- */
-
+.timecare-header{
+    @include WorkSans;
+    color: $textGrey;
+    line-height: 1.13;
+    letter-spacing: 0.8px;
+    text-align: center;
+}
 .page-header{
 	@include Catamaran;
 	color: $textBlack;
@@ -134,7 +140,7 @@ h3, h5{
 /* -------------------------------------------------------------------------------- */
 /* -------------------------------------------------------------------------------- */
 .page-title{
-	padding: 8.9375em 0em 10.375em;
+	padding: 13.875em 0em 10.375em;
 }
 .content-wrapper{
 	background-color: $backgroundGrey;
@@ -383,3 +389,78 @@ h1.diaries{
 		}
 	}
 }
+
+
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+/* ----------------------------------- Header ------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+
+.navbar-default .navbar-nav>li>a{
+    @extend .timecare-header;
+
+}
+.navbar{
+    border: none;
+    background-color: white;
+    
+}
+
+            li.dropdown{
+                position: initial;
+                .dropdown-menu{
+                    width: 100%;
+                    border: none;
+                    box-shadow: none;
+                }
+            }
+
+
+.navbar-default{
+    .navbar-center{
+        
+        >li{
+            &.active >a{
+                    border-bottom: 1px solid $textBlack;
+                    background-color: transparent;
+                &:hover{
+                    background-color: transparent;
+                }
+            }
+            >a{
+                    margin-left: 2.341em;
+                    margin-right: 2.341em;
+                padding-left: 3px;
+                padding-right: 3px;
+                padding-top: 2.0625em;
+                padding-bottom: 2.125em;
+                
+            }
+            
+            .header-logo{
+                padding-top: 1.6875em;
+                padding-bottom: 1.5em;
+            }
+        }
+    }
+    .on-bording-nav{
+        li{
+              
+            a{
+                margin-right: 1.43em;
+                padding-left: 1em;
+                padding-right: 1em;
+                margin-top: 1.4em;
+                margin-bottom: 1.4em; 
+                padding-bottom: 0.6em;
+                padding-top: 0.6em;
+                &.sign-up{
+                    border: 1px solid $textGrey;
+                    border-radius: 25px;
+                }
+            }
+        }
+    }
+}
+        
