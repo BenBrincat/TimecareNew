@@ -31,11 +31,31 @@ h3, h5{
 }
 /* Remove Bootstrap Margin*/
 
+.row-centered {
+    text-align:center;
+}
+.col-centered{
+    display:inline-block;
+    float:none;
+    margin-right:-4px;
+}
+
 /* -------------------------------------------------------------------------------- */
 /* -------------------------------------------------------------------------------- */
 /* ---------------------------------- Main Vars ----------------------------------- */
 /* -------------------------------------------------------------------------------- */
 /* -------------------------------------------------------------------------------- */
+
+.dropdown-menu .divider{
+    width:32px;
+    margin: 0 auto;
+    border: none;
+    background-color: $border;
+    margin-top: 1.875em;
+    margin-bottom: 1.875em;
+}
+
+
 .timecare-header{
     @include WorkSans;
     color: $textGrey;
@@ -415,6 +435,42 @@ h1.diaries{
                     box-shadow: none;
                 }
             }
+.menu-col{
+    padding-top: 4.375em;
+    padding-bottom: 4.1875em;
+    
+    .img-wrapper{
+            height: 28px;
+        
+    }
+    h3{
+        @extend .page-secondary-headers;
+        @extend .page-subheaders; 
+        padding-top: 1.25em;
+    }
+    .book-size{
+        li{
+            a{
+                @extend .footer-detail;
+                cursor: pointer;
+                font-size: 16px;
+                @include transition(color 0.15s);
+                &:hover{
+                    @include transition(color 0.15s);
+                    color: $textBlack;
+                }
+                .measurment{
+                    text-transform: uppercase;
+                    font-size: 0.875em;
+                    font-weight: 300;
+                }
+                
+            }
+        }
+        
+    }
+    
+}
 
 
 .navbar-default{

@@ -63,17 +63,55 @@
                 </a>
                 <ul class="dropdown-menu">
                    <div class="container">
-                       <div class="row">
-                           <div class="col-sm-10 col-sm-offset-1">
+                       <div class="row row-centered">
+                           <div class="col-sm-9 col-centered">
                                <div class="row">
                                    <div class="col-sm-4 text-center">
-                                        test
+                                        <div class="menu-col">
+                                        <div class="img-wrapper"><img src="img/notebook-22x25.svg" width="22px" height="25px"></div>
+                                        <h3>Diaries</h3>
+                                        <hr class="divider">
+                                        <ul class="book-size list-unstyled">
+                                            <li><a>Slim <span class="measurment">80MM x 150MM</span></a></li>
+                                            <li><a>A6 <span class="measurment">110MM x 165MM</span></a></li>
+                                            <li><a>A5 <span class="measurment">148MM x 210MM</span></a></li>
+                                            <li><a>A4 <span class="measurment">210MM x 297MM</span></a></li>
+                                            <li><a>Quarto <span class="measurment">215MM x 265MM</span></a></li>
+                                        </ul>
+                                        
+                                        </div>
                                    </div>
+                                   
                                    <div class="col-sm-4 text-center">
-                                        test
+                                        <div class="menu-col">
+                                        <div class="img-wrapper"><img src="img/diary-19x28.svg" width="19px" height="28px"></div>
+                                        <h3>Notebooks</h3>
+                                        <hr class="divider">
+                                        <ul class="book-size list-unstyled">
+                                            <li><a>Slim <span class="measurment">80MM x 150MM</span></a></li>
+                                            <li><a>A6 <span class="measurment">110MM x 165MM</span></a></li>
+                                            <li><a>A5 <span class="measurment">148MM x 210MM</span></a></li>
+                                            <li><a>A4 <span class="measurment">210MM x 297MM</span></a></li>
+                                            
+                                        </ul>
+                                        </div>
+                                        
                                    </div>
+                                   
                                    <div class="col-sm-4 text-center">
-                                        test
+                                        <div class="menu-col">
+                                        <div class="img-wrapper"><img src="img/leather-case-19x25.svg" width="19px" height="25px"></div>
+                                        <h3>Leather Cases</h3>
+                                        <hr class="divider">
+                                        <ul class="book-size list-unstyled">
+                                            <li><a>Slim <span class="measurment">80MM x 150MM</span></a></li>
+                                            <li><a>A6 <span class="measurment">110MM x 165MM</span></a></li>
+                                            <li><a>A5 <span class="measurment">148MM x 210MM</span></a></li>
+                                            <li><a>A4 <span class="measurment">210MM x 297MM</span></a></li>
+                                            <li><a>Quarto <span class="measurment">215MM x 265MM</span></a></li>
+                                        </ul>
+                                        </div>
+                                        
                                    </div>
                                </div>
                            </div>
