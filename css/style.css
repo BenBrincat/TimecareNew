@@ -55,7 +55,7 @@ h3, h5 {
   letter-spacing: 0.8px;
   text-align: center; }
 
-.page-header, h1, h1.diaries {
+.page-header, h1, h1.diaries, .diaries-models .main {
   font-family: 'Catamaran', sans-serif;
   color: #3c3f3f;
   font-size: 3.75em;
@@ -63,7 +63,7 @@ h3, h5 {
   line-height: 1.08;
   text-align: center; }
 
-.page-secondary-headers, h2, .menu-col h3 {
+.page-secondary-headers, h2, .menu-col h3, .diary-sizes .title {
   font-family: 'Catamaran', sans-serif;
   color: #3c3f3f;
   font-size: 3.125em;
@@ -373,3 +373,93 @@ li.dropdown {
   .navbar-default .on-bording-nav li a.sign-up {
     border: 1px solid #8c8e8f;
     border-radius: 25px; }
+
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------- Diary-sizes ----------------------------------- */
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+.diary-sizes {
+  margin: 0em 22px 2.81em;
+  padding-top: 4.81em;
+  padding-bottom: 3.625em; }
+  .diary-sizes.A4 {
+    background: #FCE6E8;
+    background: -moz-linear-gradient(top, #FCE6E8 0%, #f5cace 99%);
+    background: -webkit-linear-gradient(top, #FCE6E8 0%, #f5cace 99%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#FCE6E8), color-stop(99%, #f5cace));
+    background: -o-linear-gradient(top, #FCE6E8 0%, #f5cace 99%);
+    background: linear-gradient(to bottom, #FCE6E8 0%, #f5cace 99%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$colour1', endColorstr='$colour2',GradientType=0 ); }
+  .diary-sizes.A5 {
+    background: #f8eabe;
+    background: -moz-linear-gradient(top, #f8eabe 0%, #f9e49d 99%);
+    background: -webkit-linear-gradient(top, #f8eabe 0%, #f9e49d 99%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#f8eabe), color-stop(99%, #f9e49d));
+    background: -o-linear-gradient(top, #f8eabe 0%, #f9e49d 99%);
+    background: linear-gradient(to bottom, #f8eabe 0%, #f9e49d 99%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$colour1', endColorstr='$colour2',GradientType=0 ); }
+  .diary-sizes.A6 {
+    background: #e0f4ed;
+    background: -moz-linear-gradient(top, #e0f4ed 0%, #b8e0d2 99%);
+    background: -webkit-linear-gradient(top, #e0f4ed 0%, #b8e0d2 99%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#e0f4ed), color-stop(99%, #b8e0d2));
+    background: -o-linear-gradient(top, #e0f4ed 0%, #b8e0d2 99%);
+    background: linear-gradient(to bottom, #e0f4ed 0%, #b8e0d2 99%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$colour1', endColorstr='$colour2',GradientType=0 ); }
+  .diary-sizes.Slim {
+    background: #fcd1c2;
+    background: -moz-linear-gradient(top, #fcd1c2 0%, #fcb29a 99%);
+    background: -webkit-linear-gradient(top, #fcd1c2 0%, #fcb29a 99%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#fcd1c2), color-stop(99%, #fcb29a));
+    background: -o-linear-gradient(top, #fcd1c2 0%, #fcb29a 99%);
+    background: linear-gradient(to bottom, #fcd1c2 0%, #fcb29a 99%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$colour1', endColorstr='$colour2',GradientType=0 ); }
+  .diary-sizes.Quarto {
+    background: #dbe8f3;
+    background: -moz-linear-gradient(top, #dbe8f3 0%, #b4d2ee 99%);
+    background: -webkit-linear-gradient(top, #dbe8f3 0%, #b4d2ee 99%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#dbe8f3), color-stop(99%, #b4d2ee));
+    background: -o-linear-gradient(top, #dbe8f3 0%, #b4d2ee 99%);
+    background: linear-gradient(to bottom, #dbe8f3 0%, #b4d2ee 99%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$colour1', endColorstr='$colour2',GradientType=0 ); }
+  .diary-sizes .title {
+    line-height: 1.5; }
+
+.diaries-sizes {
+  margin: 0em 22px; }
+
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------- Diary-models ---------------------------------- */
+/* -------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------- */
+.diaries-models {
+  margin-top: 5.5em; }
+  .diaries-models .main {
+    line-height: 0.81;
+    font-size: 5em;
+    margin: 0em 45px; }
+    .diaries-models .main.A5-diaries {
+      background: #f8eabe;
+      background: -moz-linear-gradient(top, #f8eabe 0%, #f9e49d 99%);
+      background: -webkit-linear-gradient(top, #f8eabe 0%, #f9e49d 99%);
+      background: -webkit-gradient(linear, left top, left bottom, from(#f8eabe), color-stop(99%, #f9e49d));
+      background: -o-linear-gradient(top, #f8eabe 0%, #f9e49d 99%);
+      background: linear-gradient(to bottom, #f8eabe 0%, #f9e49d 99%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$colour1', endColorstr='$colour2',GradientType=0 ); }
+  .diaries-models .model {
+    padding-bottom: 2.75em;
+    padding-top: 1.94em;
+    background-color: #f8f8f8;
+    margin-bottom: 2.8em;
+    font-family: 'Work Sans', sans-serif;
+    color: #3c3f3f;
+    line-height: 1.56;
+    font-size: 18px;
+    cursor: pointer; }
+    .diaries-models .model:hover {
+      opacity: 0.6; }
+  .diaries-models .container {
+    padding-top: 9.4em;
+    padding-bottom: 6.56em; }

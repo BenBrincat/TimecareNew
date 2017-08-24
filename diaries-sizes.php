@@ -11,28 +11,46 @@ include('header.php');
 	</section>
 
 
-<section class="content">
+<section class="content diaries-sizes">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-6">
-				<div>
-				    test
+				<div class="A4 diary-sizes text-center">
+                <div class="title">
+				    A4
+                    </div>
 				</div>
                 </div>
                    
                     <div class="col-md-6">
-                        test
+                      <div class="A5 diary-sizes text-center">
+                       <div class="title">
+                        A5
+                          </div>
+                    </div>
                     </div>
 						
-							<div class="row">
+						
                                 <div class="col-md-4">
-                                    test
+                                   <div class="A6 diary-sizes text-center">
+                                   <div class="title">
+                                    A6
+                                       </div>
+                                    </div>
                                 </div>
                                 <div class="col-md-4">
-                                    test
+                                   <div class="Slim diary-sizes text-center">
+                                   <div class="title">
+                                    Slim
+                                       </div>
+                                    </div>
                                 </div>
                                 <div class="col-md-4">
-                                    test
+                                   <div class="Quarto diary-sizes text-center">
+                                   <div class="title">
+                                    Quarto
+                                       </div>
+                                    </div>
                                 </div>
 
                                 </div>
