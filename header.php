@@ -51,8 +51,8 @@
         
          <div class="col-md-2">
              <ul class="nav navbar-nav on-bording-nav">
-        <li><a class="sign-up" href="#">Sign Up <span class="sr-only">(current)</span></a></li>
-        <li><a href="#" data-toggle="modal" data-target="#myModal">Log In</a></li>
+        <li><a class="sign-up md-trigger" href="#" data-toggle="modal" data-modal="modal-2" href="#">Sign Up <span class="sr-only">(current)</span></a></li>
+        <li><a href="#" class="md-trigger" data-toggle="modal" data-modal="modal-1">Log In</a></li>
       </ul>
          </div>
          
@@ -142,3 +142,79 @@
     
   </div><!-- /.container-fluid -->
 </nav>
+
+
+ <!-- Modal content-->
+<div class="md-modal md-effect-1" id="modal-1" role="dialog">
+<div class="modal-dialog">
+
+<div class="modal-custom">
+<div class="modal-body text-center">
+<div class="row">
+<div class="col-sm-10 col-sm-offset-1 text-right md-close">
+<img class="close" src="img/close-15x15.svg" width="15px" height="15px">
+</div>
+</div>
+<h2>Login</h2>
+<div class="subtitle">Please enter your email address /t and password to log in.</div>
+<div class="content">
+<img src="">
+</div>
+<div class="button-wrapper">
+<div class="row">
+<div class="col-sm-10 col-sm-offset-1">
+<button class="button empty md-close full-width">Continue</button>
+</div>
+<div class="col-sm-10 col-sm-offset-1 text-center">
+<a class="button-link empty md-close full-width" href="#">Forgot password?
+<img src="img/cta-8x13.svg" width="8px" height="13px">
+</a>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+ <!-- Modal content-->
+ 
+</div>
+</div>
+
+
+
+<div class="md-modal md-effect-1" id="modal-2" role="dialog">
+<div class="modal-dialog">
+
+<div class="modal-custom">
+<div class="modal-body text-center">
+<div class="row">
+<div class="col-sm-10 col-sm-offset-1 text-right md-close">
+<img class="close" src="img/close-15x15.svg" width="15px" height="15px">
+</div>
+</div>
+<h2>Sign Up</h2>
+<div class="subtitle">Please enter your email address /t and password to log in.</div>
+<div class="content">
+<img src="">
+</div>
+<div class="button-wrapper">
+<div class="row">
+<div class="col-sm-10 col-sm-offset-1">
+<button class="button empty md-close full-width">Continue</button>
+</div>
+<div class="col-sm-10 col-sm-offset-1 text-center">
+<a class="sign empty md-close full-width" href="#">Already have an account?
+<span class="sign-log">Log in</span>
+<img src="img/cta-8x13.svg" width="8px" height="13px">
+</a>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+ <!-- Modal content-->
+ 
+</div>
+</div>
+<div class="md-overlay"></div>

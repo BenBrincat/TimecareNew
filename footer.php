@@ -44,6 +44,8 @@
         </div>
     </div>
 </footer>
+ 
+
 
  <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog">
@@ -67,3 +69,5 @@
 
 <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/vendor/classie.js"></script>
+<script src="js/modalEffects.js"></script>
